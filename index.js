@@ -6,8 +6,7 @@ let quoteLength = quote.length;
 
 let twentySecondLetter = quote[21];
 
-let output = quoteLength[twentySecondLetter];
+let output = `The length of the quote is ${quoteLength}, the twenty second letter is [${twentySecondLetter}]`;
 
-  document.getElementById('result').innerHTML = output;
+document.getElementById('result').innerHTML = output;
 
- 
